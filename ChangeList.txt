@@ -1,0 +1,23 @@
+2/23/26
+Html:
+Added some sort of structure in the code for readability.
+
+Added a video page and footer.
+
+js:
+Added alot of code! Added the dynamic welcome AND dedicated css for the time of day.
+
+Also have some code that would tell the actual time BUT idk how to code that so it is commented out
+
+css:
+Created a layout for the main area below the navigation tab.
+
+When you hover over the nav links a cool red and blue aura appears and the top left logo glows.
+
+Added some css for the dynamic welcome
+
+img:
+Just some pics.
+
+ChangeList:
+The change list.
