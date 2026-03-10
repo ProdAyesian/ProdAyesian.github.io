@@ -21,3 +21,10 @@ Just some pics.
 
 ChangeList:
 The change list.
+
+3/9/2026
+js:
+If you click on a certain thing on the screen a hidden message appears in local storage.
+
+video.html:
+changed the video to something else
