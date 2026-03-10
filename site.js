@@ -64,3 +64,10 @@ if(Time = isEvening)
 
     )
 }
+
+//Secret message
+const BannerTitle = document.querySelector(".bannerTitle")
+
+BannerTitle.addEventListener('click', () => {
+    localStorage.setItem("It's a secret to everybody.", "Giggity giggity goo")
+})
