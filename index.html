@@ -1,56 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dennis' Homepage</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/layout.css">
     <script src="/site.js" defer></script>
+    <style>
+        #IndexPageSect {
+
+            color: white;
+            margin-left: auto;
+            margin-right: auto;
+            width: 90%;
+            display: flex;
+            gap: 20px;
+            background-image: linear-gradient(90deg, rgb(50, 50, 50), black);
+
+        }
+    </style>
     <link rel="icon" href="/img/Muyu2WayGradient.png">
 </head>
-<body>
-<!-- topsect -->
-    <div class = "BannerArea">
-        <h1 class ="bannerTitle">Dennis' JavaScript Website</h1>
 
+<body>
+    <!-- topsect -->
+    <div class="BannerArea">
+        <h1 class="bannerTitle">Dennis' JavaScript Website</h1>
     </div>
     <div id="navSect">
         <nav>
-            <ul class ="NavLayout"><a class = links href="index.html">Main</a></ul>
-            <ul class ="NavLayout"><a class = links href="video.html">Video</a></ul>
-            <ul class ="NavLayout"><a class = links href="">Link</a></ul>
-            <ul class ="NavLayout"><a class = links href="">Link</a></ul>
+            <ul class="MainNavLayout"><a class=MainNavStyle href="index.html">Main</a></ul>
+            <ul class="MainNavLayout"><a class=MainNavStyle href="video.html">Video</a></ul>
+            <ul class="MainNavLayout"><a class=MainNavStyle href="misc.html">Misc</a></ul>
+            <ul class="MainNavLayout"><a class=MainNavStyle href="">Link</a></ul>
         </nav>
     </div>
 
-<!-- midsect -->
- <div class="gridLayout">
-
-
-  
-    <div class="Leftpage">
-        
-    </div>
-    <div class="Centerpage">
-        <div id="MainPageSect" >
-            <img style=" width: 40%; float: left; border-radius: 2%;" src="img/DennisLee.jpg" alt="DennisLee">
+    <!-- midsect -->
+    <div class="gridLayout">
+        <div class="Leftpage">
+        </div>
+        <div class="Centerpage">
+            <div id="IndexPageSect">
+                <img src="img/uma/tanuki/Rudolf+TeioDance.gif" alt="Rudolf+TeioDance">
                 <section style="font-size: 25px; padding: 1%;">
                     <h1>Dennis Lee</h1>
-                    <p>My name is Dennis Lee and this is my website. Im a fan of video games and hmong food. My main occupation right is school and work</p>
-                    <p>Im in my second year here at the tech and I am currently working as food prep at Madison Middle School.</p>
+                    <p>My name is Dennis Lee and this is my website. Im a fan of video games and hmong food. My main
+                        occupation right is school and work</p>
+                    <p>Im in my second year here at the tech and I am currently working as food prep at Madison Middle
+                        School.</p>
                     <p>My favorite movies/shows are...</p>
                     <li>Breaking Bad</li>
                     <li> Sam Raimi's Spider-Man trilogy</li>
-                </section>     
+                </section>
+            </div>
+
+
         </div>
-    </div>      
-    <div class="Rightpage">
-        
+        <div class="Rightpage">
+
+        </div>
     </div>
- </div>
-<!-- bottomsect -->
-  <footer>
-    <p>This site was made with blood sweat and updog</p>
- </footer>
+    <!-- bottomsect -->
+    <footer>
+        <p>This site was made with blood sweat and updog</p>
+    </footer>
+
 </body>
+
 </html>
