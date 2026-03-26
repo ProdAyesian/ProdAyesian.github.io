@@ -2,43 +2,28 @@ html{
     background-color: rgb(20,20,20);
     font-family: 'Courier New', Courier, monospace;
     color: white;
-    margin: auto;
+    height: 100%;
+    /* cursor: url("/img/pointer.png"), auto ; */
 }
-.gridLayout{
-    display: grid;
-    grid-template-columns: 15% 70% 15%;
-}
-.Centerpage{
-width: auto;
-}
-.Leftpage{
-
-/* border: solid, 1px, red; */
-
-text-align: center;
-
-}
-.Rightpage{
-
-/* border: solid, 1px, blue; */
-
-text-align: center;
-
+body{
+    margin: 0;
+    padding: 0;
 }
 footer{
-    position: absolute;
-    top: 150%;
+    background-color: black;
+    padding: 1%;
 }
 
 .BannerArea{
-    background-color: black;
-    background-image: linear-gradient(90deg, rgb(50,50,50), black);
+
+    background-image: url(/img/uma/Doto&OperaO.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
     color: grey;
     border: solid 1px black;
-    padding:3%;
     text-align: center;
     transition: color 1s, text-shadow 1s;
-
 }
 .BannerArea :hover{
 
@@ -47,27 +32,23 @@ footer{
 }
 .bannerTitle{
     font-size: 50px;
-    width: 50%;
+
     transition: color 1s, text-shadow 1s;
 }
 
-.NavLayout{
-    display: inline;
 
-}
-
-.links{
+.MainNavStyle{
     color: rgb(50,50,50);
     text-decoration: none;
     width: 10%;
     font-size: 30px;
     transition: color .5s, font-size 1s, text-shadow .5s;
-
 }
-.links:hover{
+.MainNavStyle:hover{
     color: transparent;
     font-size: 40px;
     text-shadow: 0px 0px 1px white, 15px 0px 5px rgb(255,0,50), -15px 0px 5px cyan ;
+
 }
 
 
@@ -77,28 +58,17 @@ footer{
     text-align: center;
     border: solid 3px black;
     background-image: linear-gradient(rgb(50,50,50), black);
-    margin-bottom: 1%;
-}
-
-#MainPageSect{
-
-    color: white;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
-    display: flex;
-    gap: 20px;
-    background-image: linear-gradient(90deg, rgb(50,50,50), black);
 
 }
+
+
 
 #VideoSec iframe{
     border: solid 5px black;
-    background-image: url(../img/Doto&OperaO.jpg);
-    background-size: cover;
+    background-image: url(../img/uma/tanuki/RudolfCam.gif);
     border-radius: 1%;
-    background-position: center;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 
@@ -110,10 +80,9 @@ footer{
     font-family: 'Arial Narrow', Arial, sans-serif;
     border-radius: 5%;
     padding: 1%;
-
     position: absolute;
     left:75%;
-    top: 10%;
+    top: 5%;
     width: 250px;
     height: 30px;
     text-align: center;
@@ -129,4 +98,16 @@ footer{
     */
 
 }
+.miscLinkStyle{
+    color: rgb(0, 138, 156);
+    text-decoration: none;
+    transition: color .5s, text-shadow .5s, font-size .7s;
+    font-size: 25px;
 
+}
+.miscLinkStyle:hover{
+    color: transparent;
+    font-size: 30px;
+    text-shadow: 0px 0px 0px rgb(0, 0, 0), 2px 2px 0px rgb(255,0,50)
+
+}
