@@ -1,4 +1,9 @@
 console.log("If you see this then it works")
+//main
+document.querySelector('.bannerTitle').textContent = "Swag Central"
+document.querySelector('title').textContent = "Swag Central"
+
+//split
 
 const hours = new Date().getHours() // get the current hour
 //const hours = 19
@@ -12,7 +17,6 @@ const isEvening = hours >= 17 || hours < 4 // is it evening?
 const Leftside = document.querySelector(".Leftpage")
 const welcome = document.createElement('div'); welcome.id = "Welcome"
 let Time = document.querySelector("#welcome")
-
 
 Leftside.append(welcome)
 welcome.append(
@@ -37,8 +41,7 @@ if (Time >= 12 || Time < 24)
 */
 
 //sets the time of day
-if(Time = isMorning)
-{
+if (Time = isMorning) {
     p.textContent = "Good morning"
     welcome.setAttribute(
         "style",
@@ -46,17 +49,14 @@ if(Time = isMorning)
     )
 
 }
-if(Time = isAfternoon)
-{
+if (Time = isAfternoon) {
     p.textContent = "Good afternoon"
     welcome.setAttribute(
         "style",
         "text-shadow: 0px 0px 1px white, 3px 0px 3px rgb(255,0,50); border: solid 3px black; background-image: linear-gradient(180deg, rgb(255,140,0), rgb(120,0,200)); color: transparent;"
-
     )
 }
-if(Time = isEvening)
-{
+if (Time = isEvening) {
     p.textContent = "Good evening"
     welcome.setAttribute(
         "style",
@@ -69,7 +69,10 @@ if(Time = isEvening)
 const BannerTitle = document.querySelector(".bannerTitle")
 
 BannerTitle.addEventListener('click', () => {
-    localStorage.setItem("It's a secret to everybody.", "Giggity giggity goo")
+
 })
 
-//git can be so annoying bruh. delete this later
+localStorage.setItem("It's a secret to everybody.", "Mambo mambo. Omatsuri mambo")
+
+
+const footer = document.querySelector('footer')
