@@ -28,3 +28,8 @@ If you click on a certain thing on the screen a hidden message appears in local 
 
 video.html:
 changed the video to something else
+
+3/26/2026
+made some visual changes
+
+Hidden message now appears when page loads in.
