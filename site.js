@@ -3,6 +3,17 @@ console.log("If you see this then it works")
 document.querySelector('.bannerTitle').textContent = "Swag Central"
 document.querySelector('title').textContent = "Swag Central"
 
+
+const navText = document.querySelectorAll("#navSect nav a")
+//I can just change the text of the navLinks here LETSGOOOOOOOO
+navText[0].textContent="Main"
+navText[1].textContent="Video"
+navText[2].textContent="Misc"
+navText[3].textContent=""
+
+
+
+
 //split
 
 const hours = new Date().getHours() // get the current hour
@@ -67,8 +78,13 @@ if (Time = isEvening) {
 
 //Secret message
 const BannerTitle = document.querySelector(".bannerTitle")
-
+let numberbby = 0;
 BannerTitle.addEventListener('click', () => {
+
+location.href = "https://www.youtube.com/shorts/f-A989FqyxI";
+
+numberbby++
+localStorage.setItem("test",numberbby)
 
 })
 
@@ -76,3 +92,4 @@ localStorage.setItem("It's a secret to everybody.", "Mambo mambo. Omatsuri mambo
 
 
 const footer = document.querySelector('footer')
+
